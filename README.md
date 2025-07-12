@@ -1,5 +1,5 @@
 Helper method addData() of MyDBHelper class: 
-
+```
 public class MyDBHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "contacts";
@@ -33,8 +33,9 @@ public class MyDBHelper extends SQLiteOpenHelper {
         db.insert(TABLE_NAME, null, values);
     }
 }
-
-And finnally in MainActivity.java
-
+```
+And finally in MainActivity.java
+```
             MyDBHelper myDBHelper = new MyDBHelper(this);
             myDBHelper.addData("Md Moniruzzaman", "01710389323");
+```
